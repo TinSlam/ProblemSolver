@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{39EB4241-770B-4839-BC55-4A2B35E7F399}</ProjectGuid>
+    <RootNamespace>SlidingPuzzle</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>E:\Programming\Projects\C++\dependencies\glm\;E:\Programming\Projects\C++\dependencies\SOIL\src\;E:\Programming\Projects\C++\dependencies\glfw-3.2.1.bin.WIN32\include\;E:\Programming\Projects\C++\dependencies\FreeType\include\;E:\Programming\Projects\C++\dependencies\glew-2.1.0\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>E:/Programming/Projects/C++/dependencies/FreeType/;E:/Programming/Projects/C++/dependencies/SOIL/lib/;E:\Programming\Projects\C++\dependencies\glfw-3.2.1.bin.WIN32\lib-mingw-w64\;E:/Programming/Projects/C++/dependencies/glew-2.1.0/lib/release/Win32/;E:\Programming\Projects\C++\dependencies\glu;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;freetype.lib;libglfw3dll.a;glew32.lib;SOIL.lib;glu32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Action.h" />
+    <ClInclude Include="AStarSearchAlgorithm.h" />
+    <ClInclude Include="BidirectionalSearchAlgorithm.h" />
+    <ClInclude Include="BreadthFirstSearchAlgorithm.h" />
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\AI.h" />
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\BattleState.h" />
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Building.h" />
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\BuildingCard.h" />
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\BuildPhase.h" />
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Button.h" />
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\ButtonRectangle.h" />
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Camera.h" />
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Card.h" />
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\CardSlot.h" />
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\CardWall.h" />
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Castle.h" />
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\City.h" />
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Deck.h" />
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Entity.h" />
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\EventHandler.h" />
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\FortifyCard.h" />
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Game.h" />
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\GameUtils.h" />
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\GUIElement.h" />
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\HpUnit.h" />
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\KeyboardUtils.h" />
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Label.h" />
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Line3D.h" />
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Model3D.h" />
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\ModelLoader.h" />
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\MyGLRenderer.h" />
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\NPC.h" />
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\OpenGLCoords.h" />
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\ResourceManager.h" />
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\State.h" />
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Textbox.h" />
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Texture.h" />
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Utils.h" />
+    <ClInclude Include="DepthFirstSearchAlgorithm.h" />
+    <ClInclude Include="MinHeap.h" />
+    <ClInclude Include="Problem.h" />
+    <ClInclude Include="SearchAlgorithm.h" />
+    <ClInclude Include="SearchNode.h" />
+    <ClInclude Include="SlidingPuzzleProblem.h" />
+    <ClInclude Include="SlidingPuzzleState.h" />
+    <ClInclude Include="UniformCostSearchAlgorithm.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Action.cpp" />
+    <ClCompile Include="AStarSearchAlgorithm.cpp" />
+    <ClCompile Include="BidirectionalSearchAlgorithm.cpp" />
+    <ClCompile Include="BreadthFirstSearchAlgorithm.cpp" />
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\AI.cpp" />
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\BattleState.cpp" />
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Building.cpp" />
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\BuildingCard.cpp" />
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\BuildPhase.cpp" />
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Button.cpp" />
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\ButtonRectangle.cpp" />
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Camera.cpp" />
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Card.cpp" />
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\CardSlot.cpp" />
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\CardWall.cpp" />
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Castle.cpp" />
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\City.cpp" />
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Deck.cpp" />
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Entity.cpp" />
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\EventHandler.cpp" />
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\FortifyCard.cpp" />
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Game.cpp" />
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\GameUtils.cpp" />
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\GUIElement.cpp" />
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\HpUnit.cpp" />
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\KeyboardUtils.cpp" />
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Label.cpp" />
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Line3D.cpp" />
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Model3D.cpp" />
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\ModelLoader.cpp" />
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\MyGLRenderer.cpp" />
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\NPC.cpp" />
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\OpenGLCoords.cpp" />
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\ResourceManager.cpp" />
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\State.cpp" />
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Textbox.cpp" />
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Texture.cpp" />
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Utils.cpp" />
+    <ClCompile Include="DepthFirstSearchAlgorithm.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MinHeap.cpp" />
+    <ClCompile Include="Problem.cpp" />
+    <ClCompile Include="SearchAlgorithm.cpp" />
+    <ClCompile Include="SearchNode.cpp" />
+    <ClCompile Include="SlidingPuzzleProblem.cpp" />
+    <ClCompile Include="SlidingPuzzleState.cpp" />
+    <ClCompile Include="UniformCostSearchAlgorithm.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="input.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

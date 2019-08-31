@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{03FF3620-AFA4-4A0E-8A0B-40079BF21C66}</ProjectGuid>
+    <RootNamespace>ProblemSolver</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>../Dependencies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>../Dependencies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>Dependencies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>Dependencies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="GeneticAlgorithm\Base\GeneticAlgorithm.cpp" />
+    <ClCompile Include="GeneticAlgorithm\Base\Chromosome.cpp" />
+    <ClCompile Include="ClassicalSearch\Utilities\Action.cpp" />
+    <ClCompile Include="ClassicalSearch\Algorithm\AStarSearchAlgorithm.cpp" />
+    <ClCompile Include="ClassicalSearch\Algorithm\BidirectionalSearchAlgorithm.cpp" />
+    <ClCompile Include="ClassicalSearch\Algorithm\BreadthFirstSearchAlgorithm.cpp" />
+    <ClCompile Include="ClassicalSearch\Algorithm\DepthFirstSearchAlgorithm.cpp" />
+    <ClCompile Include="ClassicalSearch\Utilities\MinHeap.cpp" />
+    <ClCompile Include="ClassicalSearch\Problem\Problem.cpp" />
+    <ClCompile Include="ClassicalSearch\Algorithm\SearchAlgorithm.cpp" />
+    <ClCompile Include="ClassicalSearch\Utilities\SearchNode.cpp" />
+    <ClCompile Include="ClassicalSearch\Problem\SlidingPuzzleProblem.cpp" />
+    <ClCompile Include="ClassicalSearch\Algorithm\UniformCostSearchAlgorithm.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="GeneticAlgorithm\Samples\SampleGenes.cpp" />
+    <ClCompile Include="NeuralNetwork\Base\NeuralNetworksGenes.cpp" />
+    <ClCompile Include="NeuralNetwork\Base\NeuralNetworksParameters.cpp" />
+    <ClCompile Include="NeuralNetwork\Base\NeuralNetworks.cpp" />
+    <ClCompile Include="Utils\Utils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneticAlgorithm\Base\Genes.h" />
+    <ClInclude Include="GeneticAlgorithm\Base\GeneticAlgorithm.h" />
+    <ClInclude Include="GeneticAlgorithm\Base\Chromosome.h" />
+    <ClInclude Include="ClassicalSearch\Utilities\Action.h" />
+    <ClInclude Include="ClassicalSearch\Algorithm\AStarSearchAlgorithm.h" />
+    <ClInclude Include="ClassicalSearch\Algorithm\BidirectionalSearchAlgorithm.h" />
+    <ClInclude Include="ClassicalSearch\Algorithm\BreadthFirstSearchAlgorithm.h" />
+    <ClInclude Include="ClassicalSearch\Algorithm\DepthFirstSearchAlgorithm.h" />
+    <ClInclude Include="ClassicalSearch\Utilities\MinHeap.h" />
+    <ClInclude Include="ClassicalSearch\Problem\Problem.h" />
+    <ClInclude Include="ClassicalSearch\Algorithm\SearchAlgorithm.h" />
+    <ClInclude Include="ClassicalSearch\Utilities\SearchNode.h" />
+    <ClInclude Include="ClassicalSearch\Problem\SlidingPuzzleProblem.h" />
+    <ClInclude Include="ClassicalSearch\Algorithm\UniformCostSearchAlgorithm.h" />
+    <ClInclude Include="GeneticAlgorithm\Samples\SampleGenes.h" />
+    <ClInclude Include="NeuralNetwork\Base\NeuralNetworksGenes.h" />
+    <ClInclude Include="NeuralNetwork\Base\NeuralNetworksParameters.h" />
+    <ClInclude Include="NeuralNetwork\Base\NeuralNetworks.h" />
+    <ClInclude Include="NeuralNetwork\Base\NeuralNetworksData.h" />
+    <ClInclude Include="Utils\Utils.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

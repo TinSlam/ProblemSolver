@@ -1,0 +1,7 @@
+﻿  main.cpp
+e:\programming\projects\c++\problemsolver\problemsolver\neuralnetwork\base\neuralnetworks.h(4): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory
+  NeuralNetworksParameters.cpp
+e:\programming\projects\c++\problemsolver\problemsolver\neuralnetwork\base\neuralnetworksparameters.h(3): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory
+  NeuralNetworks.cpp
+e:\programming\projects\c++\problemsolver\problemsolver\neuralnetwork\base\neuralnetworks.h(4): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory
+  Generating Code...

@@ -1,0 +1,22 @@
+﻿  GeneticAlgorithm.cpp
+  Chromosome.cpp
+  Action.cpp
+  AStarSearchAlgorithm.cpp
+  BidirectionalSearchAlgorithm.cpp
+  BreadthFirstSearchAlgorithm.cpp
+  DepthFirstSearchAlgorithm.cpp
+  MinHeap.cpp
+  Problem.cpp
+  SearchAlgorithm.cpp
+  SearchNode.cpp
+  SlidingPuzzleProblem.cpp
+  UniformCostSearchAlgorithm.cpp
+  main.cpp
+e:\programming\projects\c++\problemsolver\problemsolver\neuralnetwork\base\neuralnetworks.h(4): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory
+  SampleGenes.cpp
+  NeuralNetworksParameters.cpp
+e:\programming\projects\c++\problemsolver\problemsolver\neuralnetwork\base\neuralnetworksparameters.h(3): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory
+  NeuralNetworks.cpp
+e:\programming\projects\c++\problemsolver\problemsolver\neuralnetwork\base\neuralnetworks.h(4): fatal error C1083: Cannot open include file: 'Eigen/Dense': No such file or directory
+  Utils.cpp
+  Generating Code...

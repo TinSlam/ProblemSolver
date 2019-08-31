@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Problem">
+      <UniqueIdentifier>{1a8fe93d-52c8-4065-bab4-dee237d4344d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Algorithm">
+      <UniqueIdentifier>{05089bfc-86c7-4b3f-8398-630279943220}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Problem">
+      <UniqueIdentifier>{434ab60c-5de4-434d-91b9-a38946337a50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Algorithm">
+      <UniqueIdentifier>{5c36fc01-4d5a-4419-a373-88bd57124aae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Base">
+      <UniqueIdentifier>{9a52112a-21fb-4829-87c5-670142ecde52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Base">
+      <UniqueIdentifier>{7801cc25-0f68-42b3-a6ee-c1fc1e44ad80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mewtle">
+      <UniqueIdentifier>{5549345a-d331-4184-acf3-64ec7b0b21b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mewtle">
+      <UniqueIdentifier>{e6643aee-c120-4192-a276-5512e8b4a3f1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Action.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchAlgorithm.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchNode.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="BreadthFirstSearchAlgorithm.h">
+      <Filter>Header Files\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="SlidingPuzzleProblem.h">
+      <Filter>Header Files\Problem</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHeap.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="UniformCostSearchAlgorithm.h">
+      <Filter>Header Files\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="BidirectionalSearchAlgorithm.h">
+      <Filter>Header Files\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthFirstSearchAlgorithm.h">
+      <Filter>Header Files\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="AStarSearchAlgorithm.h">
+      <Filter>Header Files\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Utils.h">
+      <Filter>Header Files\Mewtle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\AI.h">
+      <Filter>Header Files\Mewtle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\BattleState.h">
+      <Filter>Header Files\Mewtle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Building.h">
+      <Filter>Header Files\Mewtle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\BuildingCard.h">
+      <Filter>Header Files\Mewtle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\BuildPhase.h">
+      <Filter>Header Files\Mewtle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Button.h">
+      <Filter>Header Files\Mewtle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\ButtonRectangle.h">
+      <Filter>Header Files\Mewtle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Camera.h">
+      <Filter>Header Files\Mewtle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Card.h">
+      <Filter>Header Files\Mewtle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\CardSlot.h">
+      <Filter>Header Files\Mewtle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\CardWall.h">
+      <Filter>Header Files\Mewtle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Castle.h">
+      <Filter>Header Files\Mewtle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\City.h">
+      <Filter>Header Files\Mewtle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Deck.h">
+      <Filter>Header Files\Mewtle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Entity.h">
+      <Filter>Header Files\Mewtle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\EventHandler.h">
+      <Filter>Header Files\Mewtle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\FortifyCard.h">
+      <Filter>Header Files\Mewtle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Game.h">
+      <Filter>Header Files\Mewtle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\GameUtils.h">
+      <Filter>Header Files\Mewtle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\GUIElement.h">
+      <Filter>Header Files\Mewtle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\HpUnit.h">
+      <Filter>Header Files\Mewtle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\KeyboardUtils.h">
+      <Filter>Header Files\Mewtle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Label.h">
+      <Filter>Header Files\Mewtle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Line3D.h">
+      <Filter>Header Files\Mewtle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Model3D.h">
+      <Filter>Header Files\Mewtle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\ModelLoader.h">
+      <Filter>Header Files\Mewtle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\MyGLRenderer.h">
+      <Filter>Header Files\Mewtle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\NPC.h">
+      <Filter>Header Files\Mewtle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\OpenGLCoords.h">
+      <Filter>Header Files\Mewtle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\ResourceManager.h">
+      <Filter>Header Files\Mewtle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\State.h">
+      <Filter>Header Files\Mewtle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Textbox.h">
+      <Filter>Header Files\Mewtle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Texture.h">
+      <Filter>Header Files\Mewtle</Filter>
+    </ClInclude>
+    <ClInclude Include="SlidingPuzzleState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SlidingPuzzleProblem.cpp">
+      <Filter>Source Files\Problem</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem.cpp">
+      <Filter>Source Files\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Action.cpp">
+      <Filter>Source Files\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="BreadthFirstSearchAlgorithm.cpp">
+      <Filter>Source Files\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchNode.cpp">
+      <Filter>Source Files\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchAlgorithm.cpp">
+      <Filter>Source Files\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHeap.cpp">
+      <Filter>Source Files\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="UniformCostSearchAlgorithm.cpp">
+      <Filter>Source Files\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="AStarSearchAlgorithm.cpp">
+      <Filter>Source Files\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="BidirectionalSearchAlgorithm.cpp">
+      <Filter>Source Files\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthFirstSearchAlgorithm.cpp">
+      <Filter>Source Files\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\AI.cpp">
+      <Filter>Source Files\Mewtle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\BattleState.cpp">
+      <Filter>Source Files\Mewtle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Building.cpp">
+      <Filter>Source Files\Mewtle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\BuildingCard.cpp">
+      <Filter>Source Files\Mewtle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\BuildPhase.cpp">
+      <Filter>Source Files\Mewtle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Button.cpp">
+      <Filter>Source Files\Mewtle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\ButtonRectangle.cpp">
+      <Filter>Source Files\Mewtle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Camera.cpp">
+      <Filter>Source Files\Mewtle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Card.cpp">
+      <Filter>Source Files\Mewtle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\CardSlot.cpp">
+      <Filter>Source Files\Mewtle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\CardWall.cpp">
+      <Filter>Source Files\Mewtle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Castle.cpp">
+      <Filter>Source Files\Mewtle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\City.cpp">
+      <Filter>Source Files\Mewtle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Deck.cpp">
+      <Filter>Source Files\Mewtle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Entity.cpp">
+      <Filter>Source Files\Mewtle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\EventHandler.cpp">
+      <Filter>Source Files\Mewtle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\FortifyCard.cpp">
+      <Filter>Source Files\Mewtle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Game.cpp">
+      <Filter>Source Files\Mewtle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\GameUtils.cpp">
+      <Filter>Source Files\Mewtle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\GUIElement.cpp">
+      <Filter>Source Files\Mewtle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\HpUnit.cpp">
+      <Filter>Source Files\Mewtle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\KeyboardUtils.cpp">
+      <Filter>Source Files\Mewtle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Label.cpp">
+      <Filter>Source Files\Mewtle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Line3D.cpp">
+      <Filter>Source Files\Mewtle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Model3D.cpp">
+      <Filter>Source Files\Mewtle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\ModelLoader.cpp">
+      <Filter>Source Files\Mewtle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\MyGLRenderer.cpp">
+      <Filter>Source Files\Mewtle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\NPC.cpp">
+      <Filter>Source Files\Mewtle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\OpenGLCoords.cpp">
+      <Filter>Source Files\Mewtle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\ResourceManager.cpp">
+      <Filter>Source Files\Mewtle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\State.cpp">
+      <Filter>Source Files\Mewtle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Textbox.cpp">
+      <Filter>Source Files\Mewtle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Texture.cpp">
+      <Filter>Source Files\Mewtle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ITECH\source\repos\Mewtle\Mewtle\Utils.cpp">
+      <Filter>Source Files\Mewtle</Filter>
+    </ClCompile>
+    <ClCompile Include="SlidingPuzzleState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="input.txt" />
+  </ItemGroup>
+</Project>
